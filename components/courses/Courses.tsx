@@ -1,5 +1,6 @@
 import React from "react"
 
+import "./Courses.css"
 import CourseCard from "./content/CourseCard"
 
 const Courses = () => {

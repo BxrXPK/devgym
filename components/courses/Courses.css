@@ -1,0 +1,28 @@
+.courses_container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    padding: 1.25rem 3rem;
+
+}
+
+.course_card {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem;
+    
+
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
+.course_card img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.course_card h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
